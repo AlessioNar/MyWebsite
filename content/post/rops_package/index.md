@@ -5,7 +5,6 @@ description: An R client to access EPO patents
 tags:
 - R
 title: Rops, an R package to access OPS API
-
 ---
 
 ## Rops: an R client for accessing Open Patent services
