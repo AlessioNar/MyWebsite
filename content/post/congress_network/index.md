@@ -25,7 +25,7 @@ Why the United States? I chose the United States because
 
 As of the 1st May 2020, the Senate was formed by 100 Senators, and the House of Representatives of 436 Representatives out of 441 (5 seats are currently vacant). I included in the Presidential Cabinet the 23 Cabinet members, the President, and the First Lady. I decided to include her in the analysis because of her importance in the political and social sphere of the country. 
 
-##About Twitter usages: following and followed
+## About Twitter usages: following and followed
 
 Twitter is used by politicians to convey their positions with the electorate, of enhancing the public debate, and, more in general, campaigning. 
 
