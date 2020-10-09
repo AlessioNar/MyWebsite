@@ -21,7 +21,7 @@ DefaultContentLanguage = "en"                   # Theme i18n support
 
     [params.sidebar]
         emoji = "🍥"
-        avatar = "img/avatar.png"
+        avatar = "img/avatar.jpg"
         subtitle = "Computational Social Science, digital entrepreneur"
 
     [params.article]
