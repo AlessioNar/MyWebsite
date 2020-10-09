@@ -2,6 +2,8 @@
 author: Alessio Nardin
 date: "2020-10-09"
 description: An R client to access EPO patents 
+categories:
+- R
 tags:
 - R
 title: Rops, an R package to access OPS API
