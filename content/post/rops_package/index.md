@@ -12,7 +12,7 @@ title: Rops, an R package to access OPS API
 
 # What is Rops?
 
-The European Patent Office (EPO) offers a web service that provides access to the EPO's raw data through the Open Patent Services (OPS) via a standardised XML interface. 
+The European Patent Office (EPO) offers a web service that provides access to the EPO's raw data through the Open Patent Services (OPS) via a standardised XML interface and using the RESTful architecture. 
 
 The data is from the same sources as the data in Espacenet and the European Patent Register and therefore it is a useful way to download worldwide patent data and analyze it directly in your IDE of choice. 
 
@@ -22,15 +22,19 @@ The package is still in development and I am open to collaborations to improve i
 
 ## Authentication process
 
-Accessing the OPS API requires applying for an account to obtain the consumer key and the consumer secret key. You can obtain the credentials at this [link](https://www.epo.org/searching-for-patents/data/web-services/ops.html)
+Accessing the OPS API requires applying for an account to obtain the consumer key and the consumer secret key. You can register for an account at this [link](https://www.epo.org/searching-for-patents/data/web-services/ops.html)
 
-After having obtained the credentials you need to 
+The process usually takes a working day, since the OPS staff has to review your application and verify your personal information.
+
+When your registration for the service is approved, you can access the developer's area, where you must create your first app by clicking on "My Apps."
+
 
 
 ```{r create_access_token}
+ consumer_key <-"your_consumer_key"
+ consumer_secret_key <-"your_consumer_secret_key"
  
  access_token <- create_access_token(consumer_key, consumer_secret_key)
- 
 ```
 Remember that the access token remain valid for 20 minutes, after whose you need to access them again. 
 
