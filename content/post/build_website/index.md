@@ -7,6 +7,7 @@ categories:
 tags:
 - R
 - Hugo
+image: hugo_logo.png
 title: Building a static website with Hugo and RStudio
 ---
 
