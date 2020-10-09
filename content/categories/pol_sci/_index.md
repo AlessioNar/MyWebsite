@@ -1,6 +1,6 @@
 ---
-description: This is a example category
+description: Posts about political science
 image: hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg
-slug: test
-title: Test
+slug: political
+title: Political Science
 ---
