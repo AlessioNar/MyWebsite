@@ -32,7 +32,7 @@ By clicking on it, you can copy your credentials and store them in R as variable
 
 ![](my_apps.PNG)
 
-Then use the create_access_token function to retrieve an access token. Remember that the access token remain valid for 20 minutes only, so if you plan on making requests for a longer period of time you need to renew it. 
+Then use the create_access_token function to retrieve an access token.
 
 ```{r create_access_token}
  consumer_key <-"your_consumer_key"
@@ -40,7 +40,7 @@ Then use the create_access_token function to retrieve an access token. Remember 
  
  access_token <- create_access_token(consumer_key, consumer_secret_key)
 ```
-Remember that the access token remain valid for 20 minutes, after whose you need to access them again. 
+Remember that the access token remain valid for 20 minutes only, so if you plan on making requests for a longer period of time you need to renew it. 
 
 ## Basic functions in Rops
 
