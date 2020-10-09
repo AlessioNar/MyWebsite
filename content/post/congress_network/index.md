@@ -1,7 +1,7 @@
 ---
 author: Alessio Nardin
 categories:
-- Political Science
+- pol_sci
 date: "2020-05-15"
 description: Measuring the polarization of Democrats and Republicans on Twitter
 image: matt-le-SJSpo9hQf7s-unsplash.jpg

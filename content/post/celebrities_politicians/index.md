@@ -1,6 +1,6 @@
 ---
 categories:
-- Political Science
+- pol_sci
 tags:
 - Network Analysis
 date: "2019-12-12"
