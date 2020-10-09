@@ -6,6 +6,7 @@ categories:
 - R
 tags:
 - R
+image: statistics.jpg
 title: Rops, an R package to access OPS API
 ---
 
