@@ -28,7 +28,11 @@ The process usually takes a working day, since the OPS staff has to review your 
 
 When your registration for the service is approved, you can access the developer's area, where you must create your first app by clicking on "My Apps."
 
+By clicking on it, you can copy your credentials and store them in R as variables 
 
+![](my_apps.PNG)
+
+Then use the create_access_token function to retrieve an access token. Remember that the access token remain valid for 20 minutes only, so if you plan on making requests for a longer period of time you need to renew it. 
 
 ```{r create_access_token}
  consumer_key <-"your_consumer_key"
@@ -47,9 +51,4 @@ At present Rops presents four basic functions
 - get_claims: retrieves claims of a patent given the epodoc id
 - get_description: retrieves description of a patent given the epodoc id
 
-## Authentication process
 
-Accessing the OPS API requires applying for an account to obtain the consumer key and the consumer secret key. In order to register for the service, register at https://www.epo.org/searching-for-patents/data/web-services/ops.html.
-
-Then use the create_access_token function to retrieve an access token that is valid for 20 minutes.
-Retrieve bibliographic information
